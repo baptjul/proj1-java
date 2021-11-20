@@ -7,7 +7,7 @@ html, body {
 
 h1 {
     font-weight: bold;
-    font-size: 2.5em;
+    font-size: 2.4em;
     margin-bottom: -15px;
     margin-top: 15px;
 }
@@ -23,11 +23,12 @@ h3 {
 
 h4 {
     font-size: 1.3em;
+    font-weight: 400;
 }
 
 .title_background {
     padding: 2px 5px 2px 5px;
-    background-color: #16eb84ec;
+    background-color: #01eda2;
     color: black;
 }
 
@@ -41,7 +42,7 @@ h4 {
 /* ------ header ------ */
 
 .header {
-    background-color: #704cf1ec;
+    background-color: #7451eb;
     align-items: top;
     padding-top: 35px;
 }
@@ -70,7 +71,7 @@ h4 {
 /* ------ center ------ */
 
 .center {
-    color: #111768e3;
+    color: #003668;
     align-items: center;
     margin: 50px 0 50px 0;
 }
@@ -112,7 +113,7 @@ h4 {
 
 .footer {
     height: 100%;
-    background-color: #111768e3;
+    background-color: #003668;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -135,10 +136,14 @@ h4 {
 }
 
 .links i {
-    color: #2f9fe0 ;
+    color: #0277bd;
     font-size: 6em;
     margin-right: 20px;
     padding-top: -15;
+    background-image: linear-gradient(#fff,#fff);
+    background-repeat: no-repeat;
+    background-size: 80% 80%;
+    background-position: center;
 }
 
 .lonks_prop {
